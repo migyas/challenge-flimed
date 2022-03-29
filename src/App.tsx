@@ -1,12 +1,11 @@
 import { GlobalStyles } from "./styles/global";
+import { Login } from "./pages/Login";
+
 
 export function App() {
   return (
     <>
-      <h1>Clinic</h1>
-      <div style={{ background: '#fff' }}>
-        OLAAA
-      </div>
+      <Login />
       <GlobalStyles />
     </>
   )
